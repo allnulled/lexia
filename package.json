@@ -4,7 +4,7 @@
   "description": "Lenguaje de programación para crear leyes",
   "main": "lexia.js",
   "scripts": {
-    "build": "pegjs lexia.pegjs -o lexia.js",
+    "build": "pegjs lexia.pegjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
