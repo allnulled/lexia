@@ -1,0 +1,16 @@
+{
+  "name": "lexia",
+  "version": "1.0.0",
+  "description": "Lenguaje de programación para crear leyes",
+  "main": "lexia.js",
+  "scripts": {
+    "build": "pegjs lexia.pegjs -o lexia.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "allnulled",
+  "license": "WTFPL",
+  "devDependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
